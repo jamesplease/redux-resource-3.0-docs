@@ -1,0 +1,1277 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Keys · redux-resource</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-prism/prism.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="request-names.html" />
+    
+    
+    <link rel="prev" href="request-objects.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Home
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../introduction/">
+            
+                <a href="../introduction/">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../introduction/motivation.html">
+            
+                <a href="../introduction/motivation.html">
+            
+                    
+                    Motivation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../introduction/core-concepts.html">
+            
+                <a href="../introduction/core-concepts.html">
+            
+                    
+                    Core Concepts
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../introduction/similar-projects.html">
+            
+                <a href="../introduction/similar-projects.html">
+            
+                    
+                    Similar Projects
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../introduction/examples.html">
+            
+                <a href="../introduction/examples.html">
+            
+                    
+                    Examples
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../resources/">
+            
+                <a href="../resources/">
+            
+                    
+                    Resources
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../resources/resource-reducers.html">
+            
+                <a href="../resources/resource-reducers.html">
+            
+                    
+                    Resource Reducers
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../resources/resource-objects.html">
+            
+                <a href="../resources/resource-objects.html">
+            
+                    
+                    Resource Objects
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../resources/meta.html">
+            
+                <a href="../resources/meta.html">
+            
+                    
+                    Meta
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../resources/lists.html">
+            
+                <a href="../resources/lists.html">
+            
+                    
+                    Lists
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../resources/modifying-resources.html">
+            
+                <a href="../resources/modifying-resources.html">
+            
+                    
+                    Modifying Resources
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Requests
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="request-objects.html">
+            
+                <a href="request-objects.html">
+            
+                    
+                    Request Objects
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.2" data-path="request-keys.html">
+            
+                <a href="request-keys.html">
+            
+                    
+                    Keys
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="request-names.html">
+            
+                <a href="request-names.html">
+            
+                    
+                    Names
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="request-statuses.html">
+            
+                <a href="request-statuses.html">
+            
+                    
+                    Statuses
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="request-actions.html">
+            
+                <a href="request-actions.html">
+            
+                    
+                    Request Actions
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.5.1" data-path="updating-lists.html">
+            
+                <a href="updating-lists.html">
+            
+                    
+                    Updating Lists
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5.2" data-path="reading-resources.html">
+            
+                <a href="reading-resources.html">
+            
+                    
+                    Reading Resources
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5.3" data-path="updating-resources.html">
+            
+                <a href="updating-resources.html">
+            
+                    
+                    Updating Resources
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5.4" data-path="creating-resources.html">
+            
+                <a href="creating-resources.html">
+            
+                    
+                    Creating Resources
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5.5" data-path="deleting-resources.html">
+            
+                <a href="deleting-resources.html">
+            
+                    
+                    Deleting Resources
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../other-guides/">
+            
+                <a href="../other-guides/">
+            
+                    
+                    Other Guides
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../other-guides/usage-with-react.html">
+            
+                <a href="../other-guides/usage-with-react.html">
+            
+                    
+                    Usage With React
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../other-guides/tracking-request-statuses.html">
+            
+                <a href="../other-guides/tracking-request-statuses.html">
+            
+                    
+                    Tracking Request Statuses
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../other-guides/using-request-statuses.html">
+            
+                <a href="../other-guides/using-request-statuses.html">
+            
+                    
+                    Using Request Statuses
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../other-guides/custom-action-types.html">
+            
+                <a href="../other-guides/custom-action-types.html">
+            
+                    
+                    Custom Action Types
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../other-guides/migration-guides.html">
+            
+                <a href="../other-guides/migration-guides.html">
+            
+                    
+                    Migration Guides
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../recipes/">
+            
+                <a href="../recipes/">
+            
+                    
+                    Recipes
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../recipes/forms.html">
+            
+                <a href="../recipes/forms.html">
+            
+                    
+                    Forms
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../recipes/canceling-requests.html">
+            
+                <a href="../recipes/canceling-requests.html">
+            
+                    
+                    Canceling Requests
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../recipes/unauthorized-responses.html">
+            
+                <a href="../recipes/unauthorized-responses.html">
+            
+                    
+                    Unauthorized Responses
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../recipes/user-feedback.html">
+            
+                <a href="../recipes/user-feedback.html">
+            
+                    
+                    User Feedback
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../recipes/related-resources.html">
+            
+                <a href="../recipes/related-resources.html">
+            
+                    
+                    Related Resources
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="../recipes/caching.html">
+            
+                <a href="../recipes/caching.html">
+            
+                    
+                    Caching
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../extras/">
+            
+                <a href="../extras/">
+            
+                    
+                    Ecosystem Extras
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../extras/redux-resource-action-creators.html">
+            
+                <a href="../extras/redux-resource-action-creators.html">
+            
+                    
+                    Redux Resource Action Creators
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../extras/redux-resource-xhr.html">
+            
+                <a href="../extras/redux-resource-xhr.html">
+            
+                    
+                    Redux Resource XHR
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../extras/redux-resource-prop-types.html">
+            
+                <a href="../extras/redux-resource-prop-types.html">
+            
+                    
+                    Redux Resource Prop Types
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="../extras/redux-resource-plugins.html">
+            
+                <a href="../extras/redux-resource-plugins.html">
+            
+                    
+                    Redux Resource Plugins
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.4.1" data-path="../extras/http-status-codes-plugin.html">
+            
+                <a href="../extras/http-status-codes-plugin.html">
+            
+                    
+                    HTTP Status Codes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4.2" data-path="../extras/selection-plugin.html">
+            
+                <a href="../extras/selection-plugin.html">
+            
+                    
+                    Selection
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4.3" data-path="../extras/reset-plugin.html">
+            
+                <a href="../extras/reset-plugin.html">
+            
+                    
+                    Reset
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4.4" data-path="../extras/included-resources-plugin.html">
+            
+                <a href="../extras/included-resources-plugin.html">
+            
+                    
+                    Included Resources
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../faq/">
+            
+                <a href="../faq/">
+            
+                    
+                    FAQ
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../faq/general.html">
+            
+                <a href="../faq/general.html">
+            
+                    
+                    General
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../faq/state-tree.html">
+            
+                <a href="../faq/state-tree.html">
+            
+                    
+                    State Tree
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../faq/actions.html">
+            
+                <a href="../faq/actions.html">
+            
+                    
+                    Actions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.4" data-path="../faq/lists.html">
+            
+                <a href="../faq/lists.html">
+            
+                    
+                    Lists
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../api-reference/">
+            
+                <a href="../api-reference/">
+            
+                    
+                    API Reference
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../api-reference/resource-reducer.html">
+            
+                <a href="../api-reference/resource-reducer.html">
+            
+                    
+                    resourceReducer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../api-reference/get-status.html">
+            
+                <a href="../api-reference/get-status.html">
+            
+                    
+                    getStatus
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3" data-path="../api-reference/get-resources.html">
+            
+                <a href="../api-reference/get-resources.html">
+            
+                    
+                    getResources
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4" data-path="../api-reference/upsert-resources.html">
+            
+                <a href="../api-reference/upsert-resources.html">
+            
+                    
+                    upsertResources
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.5" data-path="../api-reference/set-resource-meta.html">
+            
+                <a href="../api-reference/set-resource-meta.html">
+            
+                    
+                    setResourceMeta
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.6" data-path="../api-reference/action-types.html">
+            
+                <a href="../api-reference/action-types.html">
+            
+                    
+                    actionTypes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.7" data-path="../api-reference/request-statuses.html">
+            
+                <a href="../api-reference/request-statuses.html">
+            
+                    
+                    requestStatuses
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >Keys</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="request-keys">Request Keys</h1>
+<p>A request key is a string used to identify the request within the store. Request keys
+are conceptually similar to resource IDs.</p>
+<p>Request keys can be manually created, or you can use a key that is generated for
+you by a library. This guide will cover both approaches.</p>
+<p>For a request to create a new book, you might use the string <code>&quot;createBook&quot;</code>.
+The resource slice in this situation might look like:</p>
+<pre class="language-"><code class="lang-js"><span class="token punctuation">{</span>
+  resourceType<span class="token punctuation">:</span> <span class="token string">&apos;books&apos;</span><span class="token punctuation">,</span>
+  requests<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    createBook<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+      requestKey<span class="token punctuation">:</span> <span class="token string">&apos;createBook&apos;</span><span class="token punctuation">,</span>
+      status<span class="token punctuation">:</span> <span class="token string">&apos;SUCCEEDED&apos;</span><span class="token punctuation">,</span>
+      ids<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token number">24</span><span class="token punctuation">]</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token comment" spellcheck="true">// ...there are other things here, too</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p>This request object represents that this request succeeded, and that the resource with ID
+of 24 was created.</p>
+<h3 id="specifying-a-request-key">Specifying a Request Key</h3>
+<p>Add the <code>requestKey</code> property to a <a href="request-actions.html">request action</a> to specify the key
+for that request.</p>
+<pre class="language-"><code class="lang-js"><span class="token keyword">import</span> <span class="token punctuation">{</span> actionTypes <span class="token punctuation">}</span> fom <span class="token string">&apos;redux-resource&apos;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> store <span class="token keyword">from</span> <span class="token string">&apos;./store&apos;</span><span class="token punctuation">;</span>
+
+store<span class="token punctuation">.</span><span class="token function">dispatch</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  type<span class="token punctuation">:</span> actionTypes<span class="token punctuation">.</span>READ_RESOURCES_PENDING<span class="token punctuation">,</span>
+  resourceType<span class="token punctuation">:</span> <span class="token string">&apos;books&apos;</span><span class="token punctuation">,</span>
+  requestKey<span class="token punctuation">:</span> <span class="token string">&apos;searchBooks&apos;</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>Every request has two actions associated with it: one when the request starts, and one
+when the request ends. You should use the same request key for both of these actions. For
+instance, if you use a particular key for the &quot;pending&quot; action, then you will want
+to use that same key for the &quot;success&quot; action, too.</p>
+<blockquote>
+<p>Note: if you specify the <code>request</code> property on an action, then it will be used
+as both the key and the <a href="../resources/request-names.md">name</a>. This API is
+from Redux Resource &lt; 3.0. Although it will continue to work into the future, it
+is recommended that you explicitly set <code>requestKey</code> and <code>requestName</code> separately
+going forward.</p>
+</blockquote>
+<h3 id="manual-request-keys">Manual Request Keys</h3>
+<p>It is okay if you are not using a library that generates a request key for you. You will manually
+specify your request keys, which isn&apos;t too hard to do if you follow a naming convention.</p>
+<p>Here are some example request keys you could use:</p>
+<ul>
+<li><code>createBook</code></li>
+<li><code>fetchBook</code></li>
+<li><code>fetchBooks</code></li>
+<li><code>updateBook</code></li>
+<li><code>deleteBook</code></li>
+</ul>
+<p>We recommend using a verb somewhere in the request key or name. Some good CRUD-related verbs are:</p>
+<ul>
+<li>create</li>
+<li>get</li>
+<li>read</li>
+<li>fetch</li>
+<li>retrieve</li>
+<li>search</li>
+<li>find</li>
+<li>filter</li>
+<li>update</li>
+<li>change</li>
+<li>delete</li>
+<li>remove</li>
+</ul>
+<p>If you&apos;re associating the request with a <a href="updating-lists.html">list</a>, then you may
+want to use the list name in the request key/name as well. For instance, if the list is
+<code>favorites</code>, and the request is for a user searching through their favorites, then you may use
+<code>searchFavorites</code> as the key.</p>
+<h3 id="generated-request-keys">Generated Request Keys</h3>
+<blockquote>
+<p>Note: Official React bindings for Redux Resource are in the works, and it will generate
+request keys for you. This section describes how you might go about using generated
+request keys in your application today.</p>
+<p>Keep in mind that it is okay to use manually created keys. Generated keys aren&apos;t necessarily
+better.</p>
+</blockquote>
+<p>If you&apos;re using a networking library that provides you with caching and/or request
+deduplication features, then it may provide you with an identifying string that it generats
+for each request. It may even call that string a key.</p>
+<p>For instance, the libraries <a href="https://github.com/jamesplease/react-request" target="_blank">React Request</a> and
+<a href="https://github.com/jamesplease/fetch-dedupe" target="_blank">fetch-dedupe</a> are both HTTP request libraries
+that generate keys for you. If you&apos;re using those libraries with Redux Resource, then you can
+use the key that they provide to you as the request key.</p>
+<p>This example demonstrates using fetch-dedupe inside of a thunk action creator:</p>
+<pre class="language-"><code class="lang-js"><span class="token keyword">import</span> <span class="token punctuation">{</span> getRequestKey<span class="token punctuation">,</span> fetchDedupe <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&apos;fetch-dedupe&apos;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">function</span> <span class="token function">fetchBooks</span><span class="token punctuation">(</span>bookId<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> url <span class="token operator">=</span> <span class="token template-string"><span class="token string">`/books/</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>bookId<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">`</span></span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> fetchOptions <span class="token operator">=</span> <span class="token punctuation">{</span> credentials<span class="token punctuation">:</span> <span class="token string">&apos;include&apos;</span> <span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">const</span> requestKey <span class="token operator">=</span> <span class="token function">getRequestKey</span><span class="token punctuation">(</span><span class="token punctuation">{</span> url<span class="token punctuation">,</span> method<span class="token punctuation">:</span> <span class="token string">&apos;GET&apos;</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> dedupeOptions <span class="token operator">=</span> <span class="token punctuation">{</span> requestKey <span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+  <span class="token function">dispatch</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    type<span class="token punctuation">:</span> <span class="token string">&apos;READ_RESOURCES_PENDING&apos;</span><span class="token punctuation">,</span>
+    resourceType<span class="token punctuation">:</span> <span class="token string">&apos;books&apos;</span><span class="token punctuation">,</span>
+    resources<span class="token punctuation">:</span> <span class="token punctuation">[</span>bookId<span class="token punctuation">]</span>
+    requestKey<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>dispatch<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">{</span>
+    <span class="token function">fetchDedupe</span><span class="token punctuation">(</span>url<span class="token punctuation">,</span> fetchOptions<span class="token punctuation">,</span> dedupeOptions<span class="token punctuation">)</span>
+      <span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span>res <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">{</span>
+        <span class="token function">dispatch</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+          type<span class="token punctuation">:</span> <span class="token string">&apos;READ_RESOURCES_SUCCEEDED&apos;</span><span class="token punctuation">,</span>
+          resourceType<span class="token punctuation">:</span> <span class="token string">&apos;books&apos;</span><span class="token punctuation">,</span>
+          resources<span class="token punctuation">:</span> <span class="token punctuation">[</span>res<span class="token punctuation">.</span>data<span class="token punctuation">]</span><span class="token punctuation">,</span>
+          requestKey<span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">return</span> res<span class="token punctuation">;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span>
+      <span class="token punctuation">.</span><span class="token keyword">catch</span><span class="token punctuation">(</span>err <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">{</span>
+        <span class="token function">dispatch</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+          type<span class="token punctuation">:</span> <span class="token string">&apos;READ_RESOURCES_FAILED&apos;</span><span class="token punctuation">,</span>
+          resourceType<span class="token punctuation">:</span> <span class="token string">&apos;books&apos;</span><span class="token punctuation">,</span>
+          resources<span class="token punctuation">:</span> <span class="token punctuation">[</span>bookId<span class="token punctuation">]</span><span class="token punctuation">,</span>
+          requestKey<span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">return</span> err<span class="token punctuation">;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p>A problem that needs to be solved when using generated request keys is retrieving the request data from
+the store within your components. We encourage you to write a component that provides you
+with a <code>mapStateToProps</code> that fetches the request information automatically for you. Official
+React bindings for Redux Resource are being developed, and that is how it will work. It will use
+the library <a href="https://www.github.com/jamesplease/react-request" target="_blank">React Request</a> under-the-hood.</p>
+<h3 id="when-to-use-request-keys">When to Use Request Keys</h3>
+<p>We recommend using a request key for every request. In some situations, though, you
+can use resource metadata in lieu of a request object. When resources are being modified,
+they have built-in metadata (such as <code>readStatus</code>) that will be updated to reflect
+the action that is modifying them. This alternative approach can be
+considered a convenience.</p>
+<p>If you&apos;re manually creating request keys, then a rule of thumb to reduce the boilerplate
+that you write is:</p>
+<p><strong>Use a request key anytime that you do not have an ID, or a list of IDs, when you
+dispatch a &quot;pending&quot; action.</strong></p>
+<p>For example, if you attempt to fetch a book with ID of 23, then you <em>will</em> have
+an ID when you dispatch the &quot;read pending&quot; action (the ID is 23). So a
+request key may not be necessary in this situation, since you can look up the request
+status on book 23&apos;s metadata.</p>
+<p>On the other hand, if you were to make a request to your backend for &quot;the list
+of books that were just released this past week,&quot; then you wouldn&apos;t have any IDs
+at the time that you dispatch the &quot;read pending&quot; action. So you <em>need</em> to use a
+request key in this situation to determine the request status.</p>
+<h3 id="an-example">An Example</h3>
+<p>When a request key is used, the status of the associated request is stored in
+your state, and you can access it with
+<a href="../api-reference/get-status.html"><code>getStatus</code></a>:</p>
+<pre class="language-"><code class="lang-js"><span class="token keyword">import</span> <span class="token punctuation">{</span> getStatus <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&apos;redux-resource&apos;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> store <span class="token keyword">from</span> <span class="token string">&apos;./store&apos;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> state <span class="token operator">=</span> store<span class="token punctuation">.</span><span class="token function">getState</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> searchStatus <span class="token operator">=</span> <span class="token function">getStatus</span><span class="token punctuation">(</span>state<span class="token punctuation">,</span> <span class="token string">&apos;books.requests.search.status&apos;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment" spellcheck="true">// =&gt; Returns the following object:</span>
+<span class="token comment" spellcheck="true">//</span>
+<span class="token comment" spellcheck="true">// {</span>
+<span class="token comment" spellcheck="true">//   idle: false,</span>
+<span class="token comment" spellcheck="true">//   pending: true,</span>
+<span class="token comment" spellcheck="true">//   failed: false,</span>
+<span class="token comment" spellcheck="true">//   succeeded: false</span>
+<span class="token comment" spellcheck="true">// }</span>
+<span class="token comment" spellcheck="true">//</span>
+</code></pre>
+<p>When the request succeeds, you dispatch the following action:</p>
+<pre class="language-"><code class="lang-js"><span class="token keyword">import</span> <span class="token punctuation">{</span> actionTypes <span class="token punctuation">}</span> fom <span class="token string">&apos;redux-resource&apos;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> store <span class="token keyword">from</span> <span class="token string">&apos;./store&apos;</span><span class="token punctuation">;</span>
+
+store<span class="token punctuation">.</span><span class="token function">dispatch</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  type<span class="token punctuation">:</span> actionTypes<span class="token punctuation">.</span>READ_RESOURCES_SUCCEEDED<span class="token punctuation">,</span>
+  resourceType<span class="token punctuation">:</span> <span class="token string">&apos;books&apos;</span><span class="token punctuation">,</span>
+  request<span class="token punctuation">:</span> <span class="token string">&apos;search&apos;</span><span class="token punctuation">,</span>
+  <span class="token comment" spellcheck="true">// `newResources` are the list of books that were returned by the server</span>
+  <span class="token comment" spellcheck="true">// for this query.</span>
+  resources<span class="token punctuation">:</span> newResources
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>Now when you call <code>getStatus</code> using this request key, you get the following object:</p>
+<pre class="language-"><code class="lang-js"><span class="token punctuation">{</span>
+  idle<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+  pending<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+  failed<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+  succeeded<span class="token punctuation">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h3 id="reusing-a-request-key">&quot;Reusing&quot; a Request Key</h3>
+<p>Request keys differ from IDs in that they don&apos;t need to be unique for every request. They can be,
+and will frequently be, reused between different requests of the same &apos;type.&apos;</p>
+<p>For instance, if a user can create books in your application, then you could just use the key <code>createBook</code>
+for every creation request. This works really well if you can assume that a user is only able to send off
+one of these create requests at a time, which is a restriction that many applications adhere to.</p>
+<p>We don&apos;t encourage using the same request key across different &apos;types&apos; of actions.
+For instance, if a user can create favorite books, as well as delete favorite books,
+you should use something like <code>createFavorite</code> and <code>deleteFavorite</code> for these two
+actions, rather than, say, using <code>changeFavorites</code> for both. This makes your code more
+expressive, and also allows you to track both requests in the event that they are both
+are in flight at the same time.</p>
+<h4 id="a-note-on-dynamic-keys">A Note on Dynamic Keys</h4>
+<p>Developers who manually create request keys tend to make dynamic request keys. A dynamic request
+key is any key that includes a variable, such as:</p>
+<pre class="language-"><code>`fetchBook:${bookId}`
+</code></pre><p>Dynamic keys can be useful, but you can frequently get away with static keys.</p>
+<p>Here are some use cases for dynamic keys:</p>
+<ul>
+<li><p>Implementing response caching using request keys. If you plan to implement client-side
+caching, then you could get a more granular cache by storing some extra information
+about the request in the store. For more, check out
+<a href="../recipes/caching.html">the recipe on caching</a>.</p>
+</li>
+<li><p>Supporting multiple of the same &apos;type&apos; of request at once. If a user can delete
+a book, and then, while that first request is loading, initiate a second request
+to delete another book, then you will want two loading indicators on your app.</p>
+<p>A static request key, such as <code>deleteBook</code>, won&apos;t be enough to capture this
+information. You might choose to use a dynamic request key in this situation.</p>
+</li>
+</ul>
+<p>If you aren&apos;t doing either of those things, then it may be worth considering if you could
+keep things simple by just using a static key.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="request-objects.html" class="navigation navigation-prev " aria-label="Previous page: Request Objects">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="request-names.html" class="navigation navigation-next " aria-label="Next page: Names">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Keys","level":"1.4.2","depth":2,"next":{"title":"Names","level":"1.4.3","depth":2,"path":"docs/requests/request-names.md","ref":"docs/requests/request-names.md","articles":[]},"previous":{"title":"Request Objects","level":"1.4.1","depth":2,"path":"docs/requests/request-objects.md","ref":"docs/requests/request-objects.md","articles":[]},"dir":"ltr"},"config":{"plugins":["edit-link","prism","-highlight","anchorjs","github","ga"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{},"github":{"url":"https://github.com/jamesplease/redux-resource/"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"ga":{"configuration":"auto","token":"UA-102027744-1"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"Edit This Page","base":"https://github.com/jamesplease/redux-resource/tree/master"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchorjs":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"INDEX.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"redux-resource","gitbook":"3.2.2"},"file":{"path":"docs/requests/request-keys.md","mtime":"2018-02-27T17:34:28.363Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-02-27T17:39:40.505Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-anchorjs/anchor-style.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
